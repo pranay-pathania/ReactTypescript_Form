@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+/* PERMANENT STYLES  */
+.review-container{
+    align-items: center;
+    background: rgba(156, 255, 255, 0.651);
+    height: 100vh;
+}
+.review-container > h1{
+    font-size: 2rem;
+}
+.review-container > p{
+    margin : 5px 0px;
+    font-size: 1.2rem;
+}
+.responses{
+    width: 45vw;
+    height: 85vh;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    border-radius: 10px;
+    background: white;
+    
+}
+.question{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.answer{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.personal-info  li{
+    font-size: 1.3rem;
+    margin: 10px 3px;
+    
+}
+.info{
+    width:43.8vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 5px; 
+}
+.review-container, section{
+    display: flex;
+    flex-direction: column;
+    
+}
+.subjective-info  li, .miscellaneous-info  li{
+    margin: 15px 3px;
+    margin-top: 15px;
+}
+.personal-info, .subjective-info, .miscellaneous-info{
+   border-top: 2px solid black;
+   border-bottom: 2px solid black; 
+   align-items: center;
+}
+.personal-info{
+    border-top: none;
+}
+.miscellaneous-info{
+    border-bottom: none;
+}
+.personal-info > h1, .subjective-info > h1, .miscellaneous-info > h1{
+    font-size: 1.7rem;
+    margin-top: 10px;
+}
